@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener",
+  "main": "app.js",
+  "scripts": {
+    "start": "app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsht123/Url-Shortener.git"
+  },
+  "dependencies": {
+    "express": "*"
+  },
+  "author": "Rishit Rathod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsht123/Url-Shortener/issues"
+  },
+  "homepage": "https://github.com/rsht123/Url-Shortener#readme"
+}

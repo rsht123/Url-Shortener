@@ -1,23 +1,29 @@
 {
-  "name": "url-shortener",
-  "version": "1.0.0",
-  "description": "URL Shortener",
-  "main": "app.js",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+
+  "name": "my-glitch-app",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "main": "server.js",
   "scripts": {
-    "start": "app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rsht123/Url-Shortener.git"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "*"
+    "express": "^4.16.2",
+    "mongoose": "*"
   },
-  "author": "Rishit Rathod",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rsht123/Url-Shortener/issues"
+  "engines": {
+    "node": "8.x"
   },
-  "homepage": "https://github.com/rsht123/Url-Shortener#readme"
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
